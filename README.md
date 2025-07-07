@@ -1,14 +1,8 @@
 # osTicket-Instillation-lab
 # osTicket Installation Lab
 
-## Course Information
-- **Course**: [Your Course Name/Code]
-- **Institution**: [Your Institution]
-- **Semester**: [Current Semester/Year]
-- **Assessment Type**: Practical Lab Assignment
-
 ## Project Overview
-This project demonstrates the complete installation and configuration of osTicket, an open-source help desk ticketing system, on a Windows 10 virtual machine hosted in Microsoft Azure. The lab covers server setup, web server configuration, database installation, and application deployment.
+This project demonstrates the how to set up a virtual machine in microsoft azure and then install osTicket, an open-source help desk ticketing system, on a Windows 10 virtual machine hosted in Microsoft Azure. The lab covers server setup, web server configuration, database installation, and application deployment.
 
 ## Learning Objectives
 - Deploy and configure Azure Virtual Machines
