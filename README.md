@@ -45,26 +45,41 @@ After PHP manager was installed I then needed to install rewrite_amd64_en-us. I 
 
 Next I created a folder named PHP on the cdrive and then installed php.7.3.8. After that I extracted the php 7.3.8 folder into the PHP folder on the C drive.
 After that I installed VC_redistx86.
+![image](https://github.com/user-attachments/assets/b54187a4-9b55-4dca-8f81-8d59d0600919)
+
 
 Next I downloaded MYSQL Server. I chose typical setup type and also standard configuration. As far as the root pasword I chose the word root. 
+![image](https://github.com/user-attachments/assets/f81184c3-9a9f-42de-ab8c-ea89dea757ff)
 
-After installing MYSQL server I needed to register a new PHP version in PHP manager in internet information Services. I navigated to internet information serivices manager and then clicked on PHP Manager and then clicked on new PHP version. I was prompted to get the php excutiable file so I navigated to the PHP folder and than clicked on php.cgi and then pressed ok. 
+
+After installing MYSQL server I needed to register a new PHP version in PHP manager in internet information Services. I navigated to internet information serivices manager and then clicked on PHP Manager and then clicked on new PHP version. I was prompted to get the php excutiable file so I navigated to the PHP folder and than clicked on php.cgi and then pressed ok.
+![image](https://github.com/user-attachments/assets/234e4e50-936d-42f3-a030-5a3a6a70670e)
+
 
 After that I restarted the server by right clicking on osticket-vm in the connections and then clicked stop and then start.
+![image](https://github.com/user-attachments/assets/17e0abe5-cfcf-4c54-bc60-7b098944cf34)
 
 After that I navigated to the osTicket installation files and extracted osTicket on the the osTicket instalation file folder. 
 Afterthat I navigated to the windows c drive and than to the intepub folder and then the www.root folder and then moved the upload folder from the osTicket file into the www.root folder and then named the upload folder to osTicket.
+![image](https://github.com/user-attachments/assets/bd33d3c4-59f6-49e4-90d8-31ea4fdaf263)
+
 
 I than restarted the server again using the same steps as before in IIS.After restarting the server again i clicked on the browse 80 folder under actions and launched the osTicket installation web page in internet explore.
+![image](https://github.com/user-attachments/assets/f9ef46e2-7d2d-4a02-bdb8-f25fb8d926ff)
 
 I than needed to install some recommended prererquisites. I navigated to IIS and then clicked on PHP manager and then enabled three php extensions  php_imap.dll,  php_intl.dll, and  php_opcache.dll
+![image](https://github.com/user-attachments/assets/56404625-262b-408e-a92b-6a79d01f1938)
 
 After that I renamed the ost-sample config.php folder to ost-config.php and right clicked the folders to get to properties and than removed inherited permissions and than gave full controll to everyone. 
+![image](https://github.com/user-attachments/assets/a82dc531-37f3-48eb-b559-d54562b98658)
 
 I than clicked continue on the osTicket installation web page filled out the information requested for system settings and Admin user.
 
 Lastly I downloaded HeidiSQL and then created a database with the userame being root and the pasword being root and then filled at the informaion in data base settings.
+![image](https://github.com/user-attachments/assets/75663502-0264-49de-896b-03ca35267608)
+
 
 At this point osTicket installed
+![image](https://github.com/user-attachments/assets/4d48e24d-58fa-48bb-bd44-c52a767339cf)
 
 
