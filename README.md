@@ -80,6 +80,7 @@ Lastly I downloaded HeidiSQL and then created a database with the userame being 
 
 
 At this point osTicket installed
+
 ![image](https://github.com/user-attachments/assets/4d48e24d-58fa-48bb-bd44-c52a767339cf)
 
 
